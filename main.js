@@ -104,20 +104,3 @@ function createQuiz(arr) {
 }
 
 createQuiz(quiz);
-
-// quiz.forEach(function (el) {
-//   const qstDiv = document.createElement("div");
-//   const question = document.createElement("p");
-//   question.innerText = el.question;
-//   document.body.appendChild(qstDiv);
-//   qstDiv.appendChild(question);
-
-//   el.options.forEach(function (n) {
-//     const answer = document.createElement("button");
-//     answer.innerText = n;
-//     if (el.options.indexOf(n) + 1 === el.correctAnswer)
-//       answer.setAttribute("class", "correct");
-//     // if (answer.classList == "correct") console.log(answer);
-//     qstDiv.appendChild(answer);
-//   });
-// });
